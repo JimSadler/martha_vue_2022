@@ -1,16 +1,26 @@
 <template>
   <section class="section">
     <div class="teacup container">
-      <h2 class="title center">The Teacup Prophecies</h2>
+      <h2 class="title center">
+        The Teacup Prophecies
+      </h2>
       <hr />
       <!-- eslint-disable -->
       <div class="columns">
         <div class="column iframe">
-          <img class="teacupImg mobile" :srcset="require('~/assets/teacup-cover.jpg').srcSet" alt />
+          <img
+            class="teacupImg mobile"
+            :srcset="require('~/assets/teacup-cover.jpg').srcSet"
+            alt
+          />
         </div>
       </div>
 
-      <p class="center" style="text-align: center; margin-bottom: 3rem;" role="presentation">
+      <p
+        class="center"
+        style="text-align: center; margin-bottom: 3rem;"
+        role="presentation"
+      >
         This book is filled with ascended messages to life’s most pressing
         questions. Culled from the radio shows, teachings, writings and
         philosophy of Martha Novak, spiritual teacher, author, and lecturer,
@@ -24,7 +34,11 @@
 
       <div class="columns">
         <div class="column iframe">
-          <img class="teacupImg desktop" :srcset="require('~/assets/teacup-cover.jpg').srcSet" alt />
+          <img
+            class="teacupImg desktop"
+            :srcset="require('~/assets/teacup-cover.jpg').srcSet"
+            alt
+          />
         </div>
         <div class="column teacupQuote">
           <div class="column">
@@ -49,7 +63,9 @@
           </div>
           <div class="column">
             <div class="teacup-data">
-              <blockquote class="quote" cite="Martha Novak">{{ randomQuote }}</blockquote>
+              <blockquote class="quote" cite="Martha Novak">
+                {{ randomQuote }}
+              </blockquote>
               <span cite="Martha Novak"></span>
             </div>
           </div>
@@ -63,14 +79,16 @@
             href="https://www.amazon.com/dp/B01N7H96KP/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"
             class="teacuplink"
             target="_blank"
-          >Buy on Amazon</a>
+            >Buy on Amazon</a
+          >
         </li>
         <li class="amazonBut e-book">
           <a
             href="https://www.amazon.com/dp/B00J6F46UU"
             class="teacuplink"
             target="_blank"
-          >Buy E-book</a>
+            >Buy E-book</a
+          >
         </li>
         <!-- <li class="appstore">
           <a
@@ -83,8 +101,14 @@
             />
           </a>
         </li>-->
-        <a href="https://itunes.apple.com/us/app/the-teacup-prophecies/id1332467134?ls=1&mt=8">
-          <img class="appstorebutt" :srcset="require('~/static/button-appstore.png').srcSet" alt />
+        <a
+          href="https://itunes.apple.com/us/app/the-teacup-prophecies/id1332467134?ls=1&mt=8"
+        >
+          <img
+            class="appstorebutt"
+            :srcset="require('~/static/button-appstore.png').srcSet"
+            alt
+          />
         </a>
       </ul>
     </div>
@@ -104,6 +128,7 @@ export default {
   computed: {
     randomQuote() {
       const rand = Math.floor(Math.random() * this.teacupDataList.length)
+      console.log('rand', rand)
       return this.teacupDataList[rand] ? this.teacupDataList[rand].quote : ''
     }
   },
@@ -112,6 +137,7 @@ export default {
     getTeacupData() {
       axios.get('/teacupProph.json').then((response) => {
         this.teacupDataList = response.data
+        console.log('teacupDataList', this.teacupDataList)
       })
     }
   }
