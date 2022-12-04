@@ -1,0 +1,298 @@
+span.css-n1lu6x-CustomIconWrapper {
+  margin-bottom: 100px !important;
+}
+
+.navbar-burger {
+  height: auto;
+}
+
+.navbar-menu a {
+  display: block;
+  color: #363636;
+}
+
+h2.logoText {
+  display: inline-block !important;
+  top: 7%;
+  color: #363636;
+  font-size: 27px;
+  font-weight: 500;
+  position: absolute;
+  margin-left: 6%;
+}
+
+.navbar-menu a:hover,
+.navbar-menu a:focus {
+  display: block;
+  color: #faa146;
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #eeeeee;
+  min-height: 3.25rem;
+  position: relative;
+  z-index: 30;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  body {
+    background-color: #242024;
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
+
+  .navbar-menu .button {
+    color: whitesmoke;
+  }
+
+  .dropdown-content {
+    background-color: #373737 !important;
+  }
+
+  .navbar-item.site-search-wrapper {
+    color: whitesmoke;
+  }
+
+  .navbar-item.site-search-wrapper .active {
+    color: #4a4a4a;
+  }
+
+  h2.logoText {
+    color: whitesmoke;
+  }
+
+  nav.navbar {
+    background-color: #373737;
+    color: whitesmoke;
+  }
+
+  .navbar-menu a {
+    color: whitesmoke;
+  }
+
+  .accordion .card {
+    background-color: #373737;
+    color: whitesmoke;
+  }
+
+  .accordion .card-header-title {
+    color: whitesmoke;
+    transition: 0.7s;
+  }
+
+  .accordion .card-header:hover,
+  .accordion .card-active .card-header {
+    background-color: #e5e3e3;
+  }
+
+  .accordion .card-header:hover .card-header-title,
+  .accordion .card-active .card-header-title,
+  .accordion .card-header:hover i.material-icons,
+  .accordion .card-active i.material-icons {
+    color: #373737;
+  }
+
+  .right-sidebar .card,
+  .other-posts .card,
+  #blog-page .card {
+    background-color: #373737;
+    color: whitesmoke;
+    transition: 0.7s;
+  }
+
+  .right-sidebar .card:hover,
+  .other-posts .card:hover,
+  #blog-page .card:hover {
+    background-color: whitesmoke;
+    color: #373737;
+  }
+
+  .right-sidebar .card-content h3,
+  .other-posts .card-content h3 .right-sidebar .card-content h4,
+  .right-sidebar .card-content h4 span,
+  .right-sidebar .card-content h4 strong,
+  .other-posts .card-content h3,
+  .other-posts .card-content h4,
+  .other-posts .card-content h4 span,
+  .other-posts .card-content h4 strong,
+  #blog-page .card-content h3,
+  #blog-page .card-content h4,
+  #blog-page .card-content h4 span,
+  #blog-page .card-content h4 strong {
+    color: whitesmoke;
+  }
+
+  aside.right-sidebar h3.subtitle,
+  .other-posts .subtitle {
+    color: whitesmoke;
+  }
+
+  .right-sidebar .card:hover .card-content h3,
+  .right-sidebar .card:hover .card-content h4,
+  .right-sidebar .card:hover .card-content h4 span,
+  .right-sidebar .card:hover .card-content h4 strong,
+  .other-posts .card:hover .card-content h3,
+  .other-posts .card:hover .card-content h4,
+  .other-posts .card:hover .card-content h4 span,
+  .other-posts .card:hover .card-content h4 strong,
+  #blog-page .card:hover .card-content h3,
+  #blog-page .card:hover .card-content h4,
+  #blog-page
+    .card:hover
+    .card-content
+    h4
+    strong
+    #blog-page
+    .card:hover
+    .card-content
+    h4
+    span {
+    color: #373737;
+  }
+
+  .social-icons li a {
+    color: whitesmoke !important;
+  }
+
+  a.teacuplink {
+    color: whitesmoke !important;
+  }
+
+  blockquote + span:after {
+    color: whitesmoke !important;
+  }
+
+  .page-main-section .title {
+    color: whitesmoke;
+  }
+
+  #contact-page .box {
+    background-color: #373737;
+  }
+
+  #contact-page .box .subtitle {
+    color: whitesmoke;
+  }
+
+  #contact-page .image img {
+    border-radius: 0px;
+  }
+} */
+
+/* body.dark-mode-active {
+  background-color: #121212;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+body.dark-mode-active .navbar-menu .button {
+  color: whitesmoke;
+}
+
+body.dark-mode-active .dropdown-content {
+  background-color: #373737 !important;
+}
+
+body.dark-mode-active .navbar-item.site-search-wrapper {
+  color: whitesmoke;
+}
+
+body.dark-mode-active .navbar-item.site-search-wrapper .active {
+  color: #4a4a4a;
+}
+
+body.dark-mode-active h2.logoText {
+  color: whitesmoke;
+}
+
+body.dark-mode-active nav.navbar {
+  background-color: #373737;
+  color: whitesmoke;
+}
+
+body.dark-mode-active .navbar-menu a {
+  color: whitesmoke;
+}
+
+body.dark-mode-active .accordion .card {
+  background-color: #373737;
+  color: whitesmoke;
+}
+
+body.dark-mode-active .accordion .card-header-title {
+  color: whitesmoke;
+  transition: .7s;
+}
+
+body.dark-mode-active .accordion .card-header:hover,
+body.dark-mode-active .accordion .card-active .card-header {
+  background-color: #e5e3e3;
+
+}
+
+body.dark-mode-active .accordion .card-header:hover .card-header-title,
+body.dark-mode-active .accordion .card-active .card-header-title,
+body.dark-mode-active .accordion .card-header:hover i.material-icons,
+body.dark-mode-active .accordion .card-active i.material-icons {
+  color: #373737;
+}
+
+body.dark-mode-active .right-sidebar .card,
+body.dark-mode-active .other-posts .card,
+body.dark-mode-active #blog-page .card {
+  background-color: #373737;
+  color: whitesmoke;
+  transition: .7s;
+}
+
+body.dark-mode-active .right-sidebar .card:hover,
+body.dark-mode-active .other-posts .card:hover,
+body.dark-mode-active #blog-page .card:hover {
+  background-color: whitesmoke;
+  color: #373737;
+}
+
+body.dark-mode-active .right-sidebar .card-content h3,
+body.dark-mode-active .other-posts .card-content h3 .right-sidebar .card-content h4,
+body.dark-mode-active .right-sidebar .card-content h4 span,
+body.dark-mode-active .right-sidebar .card-content h4 strong,
+body.dark-mode-active .other-posts .card-content h3,
+body.dark-mode-active .other-posts .card-content h4,
+body.dark-mode-active .other-posts .card-content h4 span,
+body.dark-mode-active .other-posts .card-content h4 strong,
+body.dark-mode-active #blog-page .card-content h3,
+body.dark-mode-active #blog-page .card-content h4,
+body.dark-mode-active #blog-page .card-content h4 span,
+body.dark-mode-active #blog-page .card-content h4 strong {
+  color: whitesmoke;
+}
+
+body.dark-mode-active aside.right-sidebar h3.subtitle,
+body.dark-mode-active .other-posts .subtitle {
+  color: whitesmoke;
+}
+
+body.dark-mode-active .right-sidebar .card:hover .card-content h3,
+body.dark-mode-active .right-sidebar .card:hover .card-content h4,
+body.dark-mode-active .right-sidebar .card:hover .card-content h4 span,
+body.dark-mode-active .right-sidebar .card:hover .card-content h4 strong,
+body.dark-mode-active .other-posts .card:hover .card-content h3,
+body.dark-mode-active .other-posts .card:hover .card-content h4,
+body.dark-mode-active .other-posts .card:hover .card-content h4 span,
+body.dark-mode-active .other-posts .card:hover .card-content h4 strong,
+body.dark-mode-active #blog-page .card:hover .card-content h3,
+body.dark-mode-active #blog-page .card:hover .card-content h4,
+body.dark-mode-active #blog-page .card:hover .card-content h4 strong #blog-page .card:hover .card-content h4 span {
+  color: #373737;
+}
+
+body.dark-mode-active .social-icons li a {
+  color: whitesmoke !important;
+}
+
+body.dark-mode-active a.teacuplink {
+  color: whitesmoke !important;
+}
+
+body.dark-mode-active blockquote+span:after {
+  color: whitesmoke !important;
+} */

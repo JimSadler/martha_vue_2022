@@ -13,6 +13,7 @@
 
 <script>
 import 'animate.css/animate.min.css'
+import 'assets/css/global.css'
 export default {
   transition: 'slide-fade',
   head() {
@@ -38,9 +39,6 @@ export default {
           hid: 'og:image',
           property: 'og:image',
           content: this.$store.state.featureImage
-            ? (process.env.URL ? process.env.URL : '') +
-              require(`~/assets${this.$store.state.featureImage}`)
-            : ''
         },
         {
           hid: 'og:url',
@@ -48,6 +46,7 @@ export default {
           content: this.url
         },
         {
+          /* eslint-disable */
           hid: 'twitter:card',
           name: 'twitter:card',
           content: `summary_large_image`
@@ -107,3 +106,18 @@ export default {
   }
 }
 </script>
+<style>
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .subscribe-form-wrapper {
+    display: none;
+  }
+  .navbar.is-fixed-top .navbar-menu,
+  .navbar.is-fixed-top-touch .navbar-menu {
+    overflow: inherit !important;
+  }
+  .navbar-menu.is-active ul.navbar-end {
+    text-align: center;
+  }
+}
+</style>

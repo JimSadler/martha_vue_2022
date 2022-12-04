@@ -1,6 +1,6 @@
 <template>
   <div id="categories-page" class="page-wrapper categories-page">
-    <site-hero title="Categories" image="https://picsum.photos/1800/1801" />
+    <site-hero title="Categories" image="/uploads/blossom-4933846_1920.jpg" />
     <main-section theme="one-column">
       <categories-grid />
     </main-section>
@@ -15,3 +15,13 @@ export default {
   }
 }
 </script>
+<style>
+@media screen and (min-width: 769px) {
+  #categories-page .hero.is-medium .hero-body {
+    padding-bottom: 18rem;
+    padding-top: 18rem;
+    text-align: right;
+    padding-left: 18em;
+  }
+}
+</style>

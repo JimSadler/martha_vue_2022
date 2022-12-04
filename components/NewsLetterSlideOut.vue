@@ -27,7 +27,7 @@ export default {
   components: { NewsLetterForm },
   data() {
     return {
-      active: true
+      active: false
     }
   },
   computed: {
@@ -61,6 +61,8 @@ export default {
   }
   .message-header {
     justify-content: start;
+    border: whitesmoke solid 1px;
+    border-radius: 3px;
     .close {
       margin-right: 16px;
       cursor: pointer;
