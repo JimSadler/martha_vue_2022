@@ -4,7 +4,9 @@
       <div class="columns">
         <div class="column is-two-thirds is-full-mobile">
           <img src="~/assets/m-logo-circle-fill-about-png-final.png" alt />
-          <h2 class="title">Martha Novak</h2>
+          <h2 class="title">
+            Martha Novak
+          </h2>
         </div>
         <div class="column is-full-mobile">
           <!-- eslint-disable -->

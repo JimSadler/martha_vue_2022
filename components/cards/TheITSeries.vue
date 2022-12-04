@@ -20,7 +20,7 @@
               <BulmaAccordion
                 dropdown
                 icon="plus-minus"
-                :caretAnimation="{
+                :caret-animation="{
                   duration: '.6s',
                   timerFunc: 'ease-in-out'
                 }"

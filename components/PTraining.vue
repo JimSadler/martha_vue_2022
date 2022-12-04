@@ -2,7 +2,7 @@
   <BulmaAccordion
     dropdown
     icon="custom"
-    :caretAnimation="{
+    :caret-animation="{
       duration: '.6s',
       timerFunc: 'ease-in-out'
     }"

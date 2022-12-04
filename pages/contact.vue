@@ -5,14 +5,20 @@
       <template v-slot:default>
         <div class="columns">
           <div class="column">
-            <h1 class="contactHead">Contact Us</h1>
+            <h1 class="contactHead">
+              Contact Us
+            </h1>
           </div>
         </div>
         <div class="tile is-ancestor">
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <p class="title contactHello">Hello!</p>
-              <p class="subtitle">How can we help?</p>
+              <p class="title contactHello">
+                Hello!
+              </p>
+              <p class="subtitle">
+                How can we help?
+              </p>
               <figure class="image is-1by1">
                 <opti-image
                   class="contactImg"
@@ -31,7 +37,9 @@
         </div>
       </template>
       <template v-slot:sidebar>
-        <h3 class="subtitle is-4">Latest Posts</h3>
+        <h3 class="subtitle is-4">
+          Latest Posts
+        </h3>
         <!-- Latest Posts -->
         <posts-grid :per-row="1" :number="2" />
       </template>

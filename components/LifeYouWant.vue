@@ -1,7 +1,9 @@
 <template>
   <section class="section">
     <div class="teacup container">
-      <h2 class="title center">The Life You Want</h2>
+      <h2 class="title center">
+        The Life You Want
+      </h2>
       <hr />
       <!-- eslint-disable -->
       <div class="columns">

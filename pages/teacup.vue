@@ -1,7 +1,9 @@
 <template>
   <div id="teacup-page">
     <site-hero title="Teacup Prophecies" image="/uploads/greyGradiend.jpg">
-      <h3 class="sub-page-header" role="presentation">Testimonial Subheader</h3>
+      <h3 class="sub-page-header" role="presentation">
+        Testimonial Subheader
+      </h3>
     </site-hero>
     <main-section>
       <template v-slot:default>

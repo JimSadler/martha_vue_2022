@@ -20,7 +20,7 @@
               <BulmaAccordion
                 dropdown
                 icon="plus-minus"
-                :caretAnimation="{
+                :caret-animation="{
                   duration: '.6s',
                   timerFunc: 'ease-in-out'
                 }"
@@ -35,7 +35,8 @@
                     <span
                       data-fsc-item-path="intimacy"
                       data-fsc-item-display="data-fsc-item-display"
-                      >Intimacy
+                    >
+                      Intimacy
                     </span>
                     <br />
                     <span
@@ -43,8 +44,8 @@
                       data-fsc-item-path="intimacy"
                       data-fsc-item-price="data-fsc-item-price"
                     >
-                      $9.99</span
-                    >
+                      $9.99
+                    </span>
                   </h4>
                   <p slot="content">
                     What real intimacy is, relative to Consciousness.

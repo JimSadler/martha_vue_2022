@@ -20,13 +20,13 @@
               <BulmaAccordion
                 dropdown
                 icon="plus-minus"
-                :caretAnimation="{
-                  duration: '.6s',
+                :caret-animation="{
+                  duration: '.3s',
                   timerFunc: 'ease-in-out'
                 }"
                 :slide="{
-                  duration: '.9s',
-                  timerFunc: 'ease'
+                  duration: '.03s',
+                  timerFunc: 'ease-in-out'
                 }"
               >
                 <!-- The wrapper component for all the items -->
@@ -68,9 +68,10 @@
   </div>
 </template>
 <script>
-// import { BulmaAccordion, BulmaAccordionItem } from 'vue-bulma-accordion'
+import { BulmaAccordion, BulmaAccordionItem } from 'vue-bulma-accordion'
 export default {
   name: 'TrueFreedom',
+  components: { BulmaAccordion, BulmaAccordionItem },
   data() {
     return {}
   }

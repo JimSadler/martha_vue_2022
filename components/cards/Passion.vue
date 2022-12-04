@@ -16,12 +16,12 @@
               <BulmaAccordion
                 dropdown
                 icon="plus-minus"
-                :caretAnimation="{
-                  duration: '.6s',
+                :caret-animation="{
+                  duration: '0s',
                   timerFunc: 'ease-in-out'
                 }"
                 :slide="{
-                  duration: '.9s',
+                  duration: '0s',
                   timerFunc: 'ease'
                 }"
               >
@@ -40,8 +40,8 @@
                       data-fsc-item-path="passion"
                       data-fsc-item-price="data-fsc-item-price"
                     >
-                      $9.99</span
-                    >
+                      $9.99
+                    </span>
                   </h4>
                   <p slot="content">
                     Passion, what it is, how you go about enjoying it, and how

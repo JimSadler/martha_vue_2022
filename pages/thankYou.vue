@@ -2,7 +2,9 @@
   <div class="thank">
     <div>
       <div md="12" class="thankWhite animated zoomIn">
-        <h1 class="title">Thank you!</h1>
+        <h1 class="title">
+          Thank you!
+        </h1>
         <p>Your form submission has been received.</p>
         <p class="homelink text-center">
           <router-link to="/" tag="button" class="button is-info">

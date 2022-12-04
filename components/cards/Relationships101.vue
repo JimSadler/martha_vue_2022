@@ -20,7 +20,7 @@
               <BulmaAccordion
                 dropdown
                 icon="plus-minus"
-                :caretAnimation="{
+                :caret-animation="{
                   duration: '.6s',
                   timerFunc: 'ease-in-out'
                 }"
@@ -35,7 +35,8 @@
                     <span
                       data-fsc-item-path="relationships-101"
                       data-fsc-item-display="data-fsc-item-display"
-                      >Relationships 101
+                    >
+                      Relationships 101
                     </span>
                     <br />
                     <span
@@ -43,8 +44,8 @@
                       data-fsc-item-path="relationships-101"
                       data-fsc-item-price="data-fsc-item-price"
                     >
-                      $2.99</span
-                    >
+                      $2.99
+                    </span>
                   </h4>
                   <p slot="content">
                     Great relationships are works of art and perfectly

@@ -21,7 +21,9 @@
                 />
               </div>
               <div class="media-content">
-                <p class="title is-4">Basic Format Class</p>
+                <p class="title is-4">
+                  Basic Format Class
+                </p>
                 <p class="subtitle is-6">
                   Watch for announcements soon about upcoming dates and times!
                 </p>
@@ -108,7 +110,9 @@
                 />
               </div>
               <div class="media-content">
-                <p class="title is-4">Basic Format Class</p>
+                <p class="title is-4">
+                  Basic Format Class
+                </p>
                 <p class="subtitle is-6">
                   Watch for announcements soon about upcoming dates and times!
                 </p>
