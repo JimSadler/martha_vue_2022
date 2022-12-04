@@ -5,14 +5,18 @@
       subtitle="Blog Talk Radio and Facebook Live Weekly Show "
       image="/uploads/Radio Show/eurasian-wigeon-4914971_1920.png"
     >
-      <h3 class="sub-page-header" role="presentation">Sundays at 10AM ET</h3>
+      <h3 class="sub-page-header" role="presentation">
+        Sundays at 10AM ET
+      </h3>
     </site-hero-large>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <section class="is-large">
           <div class="container radioShow">
             <div class="column is-full">
-              <h2 class="page-header">Show Dates</h2>
+              <h2 class="page-header">
+                Show Dates
+              </h2>
               <hr />
             </div>
             <!-- eslint-disable -->
@@ -22,6 +26,15 @@
                 <p>
                   Martha's live show will be about "Creating a Great Life." What
                   a wonderful subject to discuss as we welcome the new year!
+                </p>
+              </li>
+              <li>
+                <h3 role="presentation">12/11/22</h3>
+                <p>
+                  Martha's live show will be about "Our Relationship to God."
+                  This discussion will be from the perspective of Consciousness,
+                  not from a religious point of view. We hope you'll enjoy the
+                  show.
                 </p>
               </li>
               <!--              <li>-->
@@ -65,7 +78,7 @@
               <div class="column radShowButton">
                 <button
                   role="link"
-                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2022/12/04/real-talk-with-martha-novak','_blank');"
+                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2022/12/11/real-talk-with-martha-novak','_blank');"
                   class="btn btn-sm animated-button victoria-three animated flipInX"
                 >
                   Listen to the Show
