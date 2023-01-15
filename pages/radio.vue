@@ -37,6 +37,18 @@
                   show.
                 </p>
               </li>
+              <li>
+                <h3 role="presentation">01/08/23</h3>
+                <p>
+                  Sunday, January 8th at 10 a.m. EST, REAL TALK with Martha Novak is back with a live show entitled, "Signs You've had a Rough Childhood (and what to do about it!)"  It's a great topic for the New Year!
+                </p>
+              </li>
+              <li>
+                <h3 role="presentation">01/15/23</h3>
+                <p>
+                  On Sunday 1/15/23 at 10 a.m. EST, we are continuing our series on "Signs You Had a Rough Childhood" and what to do about it.
+                </p>
+              </li>
               <!--              <li>-->
               <!--                <h3 role="presentation">08/14/22</h3>-->
               <!--                <p>-->
@@ -78,7 +90,7 @@
               <div class="column radShowButton">
                 <button
                   role="link"
-                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2022/12/11/real-talk-with-martha-novak','_blank');"
+                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2023/01/15/real-talk-with-martha-novak','_blank');"
                   class="btn btn-sm animated-button victoria-three animated flipInX"
                 >
                   Listen to the Show
