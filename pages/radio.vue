@@ -50,7 +50,7 @@
                 </p>
               </li>
               <li>
-                <h3 role="presentation">01/2215/23</h3>
+                <h3 role="presentation">01/22/23</h3>
                 <p>
                   On Sunday, 1/22/23 at 10 a.m., REAL TALK with Martha Novak is on "Rest-Really!" We'll be discussing the last findings on rest and how to make the most of it
                 </p>
