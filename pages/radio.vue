@@ -49,23 +49,13 @@
                   On Sunday 1/15/23 at 10 a.m. EST, we are continuing our series on "Signs You Had a Rough Childhood" and what to do about it.
                 </p>
               </li>
-              <!--              <li>-->
-              <!--                <h3 role="presentation">08/14/22</h3>-->
-              <!--                <p>-->
-              <!--                  Martha will be discussing, "Growing Up with Self-Involved-->
-              <!--                  Parents," and you certainly don't want to miss this show! If-->
-              <!--                  this has been you or someone you care about, there's a lot to-->
-              <!--                  learn about psychological impact and what to do about it.-->
-              <!--                </p>-->
-              <!--              </li>-->
-              <!-- <li>
-                <h3 role="presentation">07/03/22</h3>
+              <li>
+                <h3 role="presentation">01/2215/23</h3>
                 <p>
-                  Martha is taking this week off, July 3rd. Please visit her
-                  archived shows! She'll be back with a live show on Blog Talk
-                  Radio and Facebook Live on Sunday, June 26th
+                  On Sunday, 1/22/23 at 10 a.m., REAL TALK with Martha Novak is on "Rest-Really!" We'll be discussing the last findings on rest and how to make the most of it
                 </p>
-              </li> -->
+              </li>
+
               <!-- <li>
                 <h3 role="presentation">07/10/22</h3>
                 <p>
@@ -74,15 +64,7 @@
                   Radio and Facebook Live on Sunday, June 26th
                 </p>
               </li> -->
-              <!-- <li>
-                <h3 role="presentation">07/17/22</h3>
-                <p>
-                  We're going to be discussing "Our Need to Control." We'll be
-                  talking live about all aspects of control: those that empower
-                  you and those that leave you depleted. Tune in for a great
-                  broadcast!
-                </p>
-              </li> -->
+
             </ul>
 
             <div class="columns">
@@ -90,7 +72,7 @@
               <div class="column radShowButton">
                 <button
                   role="link"
-                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2023/01/15/real-talk-with-martha-novak','_blank');"
+                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2023/01/22/real-talk-with-martha-novak','_blank');"
                   class="btn btn-sm animated-button victoria-three animated flipInX"
                 >
                   Listen to the Show
