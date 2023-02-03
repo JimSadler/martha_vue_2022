@@ -94,7 +94,7 @@
               <div class="column radShowButton">
                 <button
                   role="link"
-                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2023/02/23/real-talk-with-martha-novak','_blank');"
+                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2023/02/05/real-talk-with-martha-novak','_blank');"
                   class="btn btn-sm animated-button victoria-three animated flipInX"
                 >
                   Listen to the Show
