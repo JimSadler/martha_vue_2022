@@ -19,6 +19,15 @@
               </h2>
               <hr />
             </div>
+            <div>
+              <p>
+                Martha's broadcasts are on Blog Talk Radio and Facebook Live and
+                her shows , on a variety of subjects, are archived on these
+                channels and on YouTube. All broadcasts are free. Thank you for
+                telling others about Martha and these great shows. We appreciate
+                it!
+              </p>
+            </div>
             <!-- eslint-disable -->
             <ul class="showList">
               <li>
@@ -52,7 +61,20 @@
               <li>
                 <h3 role="presentation">01/22/23</h3>
                 <p>
-                  On Sunday, 1/22/23 at 10 a.m., REAL TALK with Martha Novak is on "Rest-Really!" We'll be discussing the last findings on rest and how to make the most of it
+                  On Sunday at 10 a.m. EST, REAL TALK with Martha Novak is on "Rest-Really!" We'll be discussing the last findings on rest and how to make the most of it.
+                </p>
+              </li>
+              <li>
+                <h3 role="presentation">01/29/23</h3>
+                <p>
+                  On Sunday at 10 a.m. EST, "What You Expect From Other People" that may be making you unhappy. A fascinating subject!
+                </p>
+              </li>
+
+              <li>
+                <h3 role="presentation">02/5/23</h3>
+                <p>
+                  On Sunday, at 10 a.m., REAL TALK with Martha Novak we'll be discussing "Expectations," what we expect from other people, what we expect of ourselves, and why this may be making us unhappy.
                 </p>
               </li>
 
@@ -72,7 +94,7 @@
               <div class="column radShowButton">
                 <button
                   role="link"
-                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2023/01/22/real-talk-with-martha-novak','_blank');"
+                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2023/02/23/real-talk-with-martha-novak','_blank');"
                   class="btn btn-sm animated-button victoria-three animated flipInX"
                 >
                   Listen to the Show
