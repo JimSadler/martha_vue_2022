@@ -30,67 +30,14 @@
             </div>
             <!-- eslint-disable -->
             <ul class="showList">
-              <li>
-                <h3 role="presentation">12/4/22</h3>
+
+              <li v-for="item in radio_descriptions" :key="item">
+                <h3 role="presentation">{{ item.date }}</h3>
                 <p>
-                  Martha's live show will be about "Creating a Great Life." What
-                  a wonderful subject to discuss as we welcome the new year!
-                </p>
-              </li>
-              <li>
-                <h3 role="presentation">12/11/22</h3>
-                <p>
-                  Martha's live show will be about "Our Relationship to God."
-                  This discussion will be from the perspective of Consciousness,
-                  not from a religious point of view. We hope you'll enjoy the
-                  show.
-                </p>
-              </li>
-              <li>
-                <h3 role="presentation">01/08/23</h3>
-                <p>
-                  Sunday, January 8th at 10 a.m. EST, REAL TALK with Martha Novak is back with a live show entitled, "Signs You've had a Rough Childhood (and what to do about it!)"  It's a great topic for the New Year!
-                </p>
-              </li>
-              <li>
-                <h3 role="presentation">01/15/23</h3>
-                <p>
-                  On Sunday 1/15/23 at 10 a.m. EST, we are continuing our series on "Signs You Had a Rough Childhood" and what to do about it.
-                </p>
-              </li>
-              <li>
-                <h3 role="presentation">01/22/23</h3>
-                <p>
-                  On Sunday at 10 a.m. EST, REAL TALK with Martha Novak is on "Rest-Really!" We'll be discussing the last findings on rest and how to make the most of it.
-                </p>
-              </li>
-              <li>
-                <h3 role="presentation">01/29/23</h3>
-                <p>
-                  On Sunday at 10 a.m. EST, "What You Expect From Other People" that may be making you unhappy. A fascinating subject!
+                  {{item.description}}
                 </p>
               </li>
 
-              <li>
-                <h3 role="presentation">02/5/23</h3>
-                <p>
-                  On Sunday, at 10 a.m., REAL TALK with Martha Novak we'll be discussing "Expectations," what we expect from other people, what we expect of ourselves, and why this may be making us unhappy.
-                </p>
-              </li>
-
-              <li>
-                <h3 role="presentation">02/12/23</h3>
-                <p>
-                  On Sunday, Real Talk with Martha Novak will be discussing "Black and White Thinking." A fascinating topic! Let's catch ourselves in the act of doing it so we can stop it.
-                </p>
-              </li>
-
-              <li>
-                <h3 role="presentation">02/19/23</h3>
-                <p>
-                  On Sunday, at 10 a.m., REAL TALK with Martha Novak we'll be discussing "Ways to Boost Creativity and Creative Thinking." It will be a wonderful show and hope you'll have fun with some of the ideas presented.
-                </p>
-              </li>
 
               <!-- <li>
                 <h3 role="presentation">07/10/22</h3>
@@ -153,6 +100,57 @@ import SiteHeroLarge from '~/components/SiteHeroLg'
 export default {
   components: {
     SiteHeroLarge
+  },
+  data() {
+    return {
+      radio_descriptions: [
+        {
+          date: '12/4/22',
+          description:
+            'Martha\'s live show will be about "Creating a Great Life." What a wonderful subject to discuss as we welcome the new year!'
+        },
+        {
+          date: '12/11/22',
+          description:
+            'Martha\'s live show will be about "Our Relationship to God." This discussion will be from the perspective of Consciousness, not from a religious point of view. We hope you\'ll enjoy the show.\n'
+        },
+        {
+          date: '01/08/23',
+          description:
+            'Sunday, at 10 a.m. EST, REAL TALK with Martha Novak is back with a live show entitled, "Signs You\'ve had a Rough Childhood (and what to do about it!)" It\'s a great topic for the New Year!'
+        },
+        {
+          date: '01/15/23',
+          description:
+            'On Sunday at 10 a.m. EST, we are continuing our series on "Signs You Had a Rough Childhood" and what to do about it.'
+        },
+        {
+          date: '01/22/23',
+          description:
+            'On Sunday at 10 a.m. EST, REAL TALK with Martha Novak is on "Rest-Really!" We\'ll be discussing the last findings on rest and how to make the most of it.'
+        },
+        {
+          date: '01/29/23',
+          description:
+            'On Sunday at 10 a.m. EST, "What You Expect From Other People" that may be making you unhappy. A fascinating subject!'
+        },
+        {
+          date: '02/5/23',
+          description:
+            'On Sunday, at 10 a.m., REAL TALK with Martha Novak we\'ll be discussing "Expectations," what we expect from other people, what we expect of ourselves, and why this may be making us unhappy.'
+        },
+        {
+          date: '02/12/23',
+          description:
+            'On Sunday, Real Talk with Martha Novak will be discussing "Black and White Thinking." A fascinating topic! Let\'s catch ourselves in the act of doing it so we can stop it.'
+        },
+        {
+          date: '02/19/23',
+          description:
+            'On Sunday, at 10 a.m., REAL TALK with Martha Novak we\'ll be discussing "Ways to Boost Creativity and Creative Thinking." It will be a wonderful show and hope you\'ll have fun with some of the ideas presented.'
+        }
+      ]
+    }
   },
   head() {
     return {
