@@ -78,6 +78,20 @@
                 </p>
               </li>
 
+              <li>
+                <h3 role="presentation">02/12/23</h3>
+                <p>
+                  On Sunday, Real Talk with Martha Novak will be discussing "Black and White Thinking." A fascinating topic! Let's catch ourselves in the act of doing it so we can stop it.
+                </p>
+              </li>
+
+              <li>
+                <h3 role="presentation">02/19/23</h3>
+                <p>
+                  On Sunday, at 10 a.m., REAL TALK with Martha Novak we'll be discussing "Ways to Boost Creativity and Creative Thinking." It will be a wonderful show and hope you'll have fun with some of the ideas presented.
+                </p>
+              </li>
+
               <!-- <li>
                 <h3 role="presentation">07/10/22</h3>
                 <p>
@@ -94,7 +108,7 @@
               <div class="column radShowButton">
                 <button
                   role="link"
-                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2023/02/05/real-talk-with-martha-novak','_blank');"
+                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2023/02/19/real-talk-with-martha-novak','_blank');"
                   class="btn btn-sm animated-button victoria-three animated flipInX"
                 >
                   Listen to the Show
