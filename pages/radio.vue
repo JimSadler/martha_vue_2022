@@ -55,7 +55,7 @@
               <div class="column radShowButton">
                 <button
                   role="link"
-                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2023/02/19/real-talk-with-martha-novak','_blank');"
+                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2023/02/26/real-talk-with-martha-novak','_blank');"
                   class="btn btn-sm animated-button victoria-three animated flipInX"
                 >
                   Listen to the Show
@@ -148,6 +148,11 @@ export default {
           date: '02/19/23',
           description:
             'On Sunday, at 10 a.m., REAL TALK with Martha Novak we\'ll be discussing "Ways to Boost Creativity and Creative Thinking." It will be a wonderful show and hope you\'ll have fun with some of the ideas presented.'
+        },
+        {
+          date: '02/26/23',
+          description:
+            'On Sunday, at 10 a.m., REAL TALK with Martha Novak we\'ll be talking about "Ways to Boost Creativity and Creative Thinking, Part II." We\'ll have a rousing discussion! '
         }
       ]
     }
