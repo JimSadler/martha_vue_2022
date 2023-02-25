@@ -55,7 +55,7 @@
               <div class="column radShowButton">
                 <button
                   role="link"
-                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2023/02/26/real-talk-with-martha-novak','_blank');"
+                  onclick="window.open('https://www.blogtalkradio.com/marthanovak/2023/03/05/real-talk-with-martha-novak','_blank');"
                   class="btn btn-sm animated-button victoria-three animated flipInX"
                 >
                   Listen to the Show
@@ -152,8 +152,16 @@ export default {
         {
           date: '02/26/23',
           description:
-            'On Sunday, at 10 a.m., REAL TALK with Martha Novak we\'ll be talking about "Ways to Boost Creativity and Creative Thinking, Part II." We\'ll have a rousing discussion! '
+            'Martha extends her apologies but she has the flu and will not be doing her radio show tomorrow, Sunday, 2/26/23. She hates that she\'s interrupting her series on "Creativity and Creative Thinking," but she must or she\'ll cough all the way through it! '
+        },
+        {
+          date: '03/05/23',
+          description:
+            'On Sunday, at 10 a.m., REAL TALK with Martha Novak we\'ll be talking about "Ways to Boost Creativity and Creative Thinking, Part II." We\'ll have a rousing discussion!  Please plan for her return the following week and a continuation of her series on "Creativity. Stay well and healthy out there and we hope Martha will take her own advice!'
         }
+      /*   Martha extends her apologies but she has the flu and will not be doing her radio show tomorrow, Sunday, 2/26/23. She hates that she's interrupting her series on "Creativity and Creative Thinking," but she must or she'll cough all the way through it!
+      //   Please plan for her return the following week and a continuation of her series on "Creativity."
+      // Stay well and healthy out there and we hope Martha will take her own advice! */
       ]
     }
   },
