@@ -105,63 +105,14 @@ export default {
     return {
       radio_descriptions: [
         {
-          date: '12/4/22',
-          description:
-            'Martha\'s live show will be about "Creating a Great Life." What a wonderful subject to discuss as we welcome the new year!'
-        },
-        {
-          date: '12/11/22',
-          description:
-            'Martha\'s live show will be about "Our Relationship to God." This discussion will be from the perspective of Consciousness, not from a religious point of view. We hope you\'ll enjoy the show.\n'
-        },
-        {
-          date: '01/08/23',
-          description:
-            'Sunday, at 10 a.m. EST, REAL TALK with Martha Novak is back with a live show entitled, "Signs You\'ve had a Rough Childhood (and what to do about it!)" It\'s a great topic for the New Year!'
-        },
-        {
-          date: '01/15/23',
-          description:
-            'On Sunday at 10 a.m. EST, we are continuing our series on "Signs You Had a Rough Childhood" and what to do about it.'
-        },
-        {
-          date: '01/22/23',
-          description:
-            'On Sunday at 10 a.m. EST, REAL TALK with Martha Novak is on "Rest-Really!" We\'ll be discussing the last findings on rest and how to make the most of it.'
-        },
-        {
-          date: '01/29/23',
-          description:
-            'On Sunday at 10 a.m. EST, "What You Expect From Other People" that may be making you unhappy. A fascinating subject!'
-        },
-        {
-          date: '02/5/23',
-          description:
-            'On Sunday, at 10 a.m., REAL TALK with Martha Novak we\'ll be discussing "Expectations," what we expect from other people, what we expect of ourselves, and why this may be making us unhappy.'
-        },
-        {
-          date: '02/12/23',
-          description:
-            'On Sunday, Real Talk with Martha Novak will be discussing "Black and White Thinking." A fascinating topic! Let\'s catch ourselves in the act of doing it so we can stop it.'
-        },
-        {
-          date: '02/19/23',
-          description:
-            'On Sunday, at 10 a.m., REAL TALK with Martha Novak we\'ll be discussing "Ways to Boost Creativity and Creative Thinking." It will be a wonderful show and hope you\'ll have fun with some of the ideas presented.'
-        },
-        {
-          date: '02/26/23',
-          description:
-            'Martha extends her apologies but she has the flu and will not be doing her radio show tomorrow, Sunday, 2/26/23. She hates that she\'s interrupting her series on "Creativity and Creative Thinking," but she must or she\'ll cough all the way through it! '
-        },
-        {
           date: '03/05/23',
           description:
-            'On Sunday, at 10 a.m., REAL TALK with Martha Novak we\'ll be talking about "Ways to Boost Creativity and Creative Thinking, Part II." We\'ll have a rousing discussion!  Please plan for her return the following week and a continuation of her series on "Creativity. Stay well and healthy out there and we hope Martha will take her own advice!'
+            "Dears, This is Martha and I do want to report what's going on right now. The flu I thought I had got much worse. I ended up in the hospital for 3 days with pneumonia. I came home Thursday, but am still very, very weak and sick. I'm going to take a month off from REAL TALK with Martha Novak to get over this. Please look for a new notice for the week of March 27th about a possible April 2nd show. I'll miss you this month and wish you all great health and happiness.Love, Martha Novak "
+        },
+        {
+          date: '04/02/23',
+          description: 'Coming Soon'
         }
-      /*   Martha extends her apologies but she has the flu and will not be doing her radio show tomorrow, Sunday, 2/26/23. She hates that she's interrupting her series on "Creativity and Creative Thinking," but she must or she'll cough all the way through it!
-      //   Please plan for her return the following week and a continuation of her series on "Creativity."
-      // Stay well and healthy out there and we hope Martha will take her own advice! */
       ]
     }
   },
