@@ -66,17 +66,6 @@
                 />
               </a>
             </li>
-            <li>
-              <a
-                href="https://www.instagram.com/marthabnovak/"
-                target="_blank"
-                class="btn btn-insta"
-              >
-                <font-awesome-icon
-                  :icon="{ prefix: 'fab', iconName: 'instagram' }"
-                />
-              </a>
-            </li>
           </ul>
         </div>
       </div>
